@@ -10,7 +10,7 @@
 
 &trackball {
     automouse-layer = <4>;
-    scroll-layers = <5>;
+    scroll-layers = <3 5>;
 };
 
 / {
@@ -63,6 +63,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB3
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         SCROLL {
