@@ -49,7 +49,7 @@
 
         FUNCTION {
             bindings = <
-&kp LC(LA(V))       &kp F7             &kp F8             &kp F9             &kp F10                                     &trans               &kp LC(LA(N))        &kp LS(UP_ARROW)     &trans               &trans
+&kp LC(LA(V))       &kp F7             &kp F8             &kp F9             &kp F10                                     &kp LC(LS(LG(NUMBER_4))) &kp LC(LA(N))     &kp LS(UP_ARROW)     &trans               &trans
 &kp LC(LA(S))       &kp F4             &kp F5             &kp F6             &kp F11           &none      &none           &kp LC(LA(M))        &kp LS(LEFT_ARROW)   &kp LS(DOWN_ARROW)   &kp LS(RIGHT_ARROW)  &kp LC(SEMICOLON)
 &trans              &kp F1             &kp F2             &kp F3             &kp F12           &none      &none           &kp LC(LA(LEFT_ARROW)) &kp LC(LA(RIGHT_ARROW)) &mkp MB1          &mkp MB2             &mkp MB3
 &kp LC(LA(L))       &trans             &trans             &trans              &trans            &trans                &kp LC(LEFT_ARROW)   &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)
