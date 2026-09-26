@@ -35,6 +35,8 @@
 &trans            &trans        &trans        &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans
 &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &trans  &trans  &lt 5 LANG2  &trans  &trans                 &lt 5 ESC
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         SYMBOL {
@@ -44,6 +46,8 @@
 &kp TILDE           &kp GRAVE           &kp DOUBLE_QUOTES   &kp EXCLAMATION     &kp QUESTION       &none      &none           &kp MINUS            &kp LEFT_BRACKET     &kp RIGHT_BRACKET    &kp COMMA           &kp DOT
 &kp LEFT_CONTROL    &kp LG(SLASH)       &kp LG(V)           &trans              &trans             &trans                &to 3                &to 0                &kp PIPE
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         NUM_NAV {
@@ -53,6 +57,8 @@
 &kp QUESTION        &kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3        &kp MINUS          &none      &none           &kp LA(LEFT_ARROW)   &kp LA(RIGHT_ARROW)  &mkp MB1             &mkp MB2             &mkp MB3
 &kp LC(LS(LEFT_SHIFT)) &kp NUMBER_0     &kp DOT             &kp DEL             &kp ENTER          &kp BACKSPACE         &kp LEFT_CONTROL     &kp DEL              &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         MAC_FUNCTION {
@@ -62,6 +68,8 @@
 &trans              &kp F1             &kp F2             &kp F3             &kp F12           &none      &none           &kp LC(LA(LEFT_ARROW)) &kp LC(LA(RIGHT_ARROW)) &mkp MB1          &mkp MB2             &mkp MB3
 &kp LC(LA(L))       &trans             &trans             &trans              &trans            &trans                &kp LC(LEFT_ARROW)   &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         WIN_FUNCTION {
@@ -71,6 +79,8 @@
 &trans              &kp F1             &kp F2             &kp F3             &kp F12           &none      &none           &kp LC(LA(LEFT_ARROW)) &kp LC(LA(RIGHT_ARROW)) &mkp MB1          &mkp MB2             &mkp MB3
 &kp LC(LA(L))       &trans             &trans             &trans              &trans            &trans                &kp LC(LEFT_ARROW)   &kp LC(RIGHT_ARROW)  &kp LC(UP_ARROW)
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         MOUSE {
@@ -91,6 +101,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         SYSTEM {
@@ -100,6 +112,8 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &bt BT_CLR  &bootloader  &trans        &trans        &trans        &trans        &trans
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
     };
 };
